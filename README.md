@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Sticky Notes Bulletin Board
 
-### `npm start`
+This React JS application creates a dynamic bulletin board where users can manage and organize sticky notes. It allows users to perform various actions on the notes while providing an intuitive interface for interaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 1. Drag and Drop Functionality
+All notes are draggable, enabling users to position them anywhere on the board for better organization and visualization.
+#$ 2. Adding New Notes
+Users can easily add new notes by clicking on the "+" button, providing a seamless experience for expanding the board with additional information.
+## 3. Deleting Notes
+Each note includes an "x" button, allowing users to delete unwanted notes effortlessly and declutter the board.
+## 4. Editing Notes
+Users can edit notes directly by clicking on the text. The cursor automatically positions at the beginning of the note for convenient and quick editing.
+## 5. Pinning Notes
+Notes can be pinned, rendering them non-draggable and preventing other notes from overlapping with them. This feature enhances note visibility and organization on the board.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Usage
+To use this application locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone the repository 
+      https://github.com/borsejugal23/flexiple
+      
+## Install dependencies:
+     npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run the application:
+    npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technologies Used
+    HTML/CSS
+    JavaScript
+    React JS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Interacting with the Sticky Notes Bulletin Board
 
-## Learn More
+## Accessing the Application:
+  Open your web browser and navigate to the provided URL or run the application locally following the instructions in the README.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Viewing the Board:
+  Upon accessing the application, you'll see a bulletin board interface with several sticky notes displayed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
+## Drag and Drop Notes:
+  Click and hold on any note. Drag it across the board to position it where you desire.
+  Release the mouse button to drop the note in the desired location.
+  
+## Adding New Notes:
+  Look for the "+" button on the interface. Clicking it will create a new blank sticky note for you to enter text.
 
-### Code Splitting
+## Deleting Notes:
+  Each note has an "x" button in the top-right corner. Click this button to delete the corresponding note.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Editing Notes:
+   Click directly on the text of any note to enter edit mode. The cursor will appear at the beginning of the text for you to make changes or add new content.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Saving Changes:
+   Your edits are automatically saved when you finish typing and click outside from the note.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Web App
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![Screenshot 2024-01-03 082755](https://github.com/borsejugal23/flexiple/assets/115457172/7b79aa08-3b91-4f5b-9196-9b4349d61c23)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ Open your browser and navigate to https://flexiple-notice-board.netlify.app/ to access the Sticky Notes Bulletin Board.
