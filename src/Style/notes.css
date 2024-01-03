@@ -1,0 +1,82 @@
+
+.note {
+    height:200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    min-width: 150px;
+    min-height: 100px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width:200px;
+    color:black;
+    border-radius: 6px;
+    position: absolute;
+    top: 130px;
+    left:50px;
+        
+      
+  }
+  
+  .note:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .note p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .note textarea {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    background-color:#FFF0F5;
+    color: black;
+    font-weight: 600;
+    resize: none;
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .text{
+    width:100%;
+    height:200px;
+    outline: none;
+    padding: 10px;
+    color: black;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'Lobster', sans-serif;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    background-color: lightpink;
+  }
+  
+  .button-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pinned {
+    border-color: 1px solid #555;
+    background-color: #eee;
+  }
+  .clear{
+    color:red;
+   
+  }
