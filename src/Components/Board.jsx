@@ -6,13 +6,15 @@ export const Board=()=>{
   const [idCounter, setIdCounter] = useState(1);
 
   const addNote = () => {
-    const newNote = {
-      id: idCounter,
-      text: 'New Note',
-      isPinned: false,
-    };
+    setNotes([
+      ...notes,
+      {
+        id: idCounter,
+        text:"New Note",
+        isPinned:false
+      },
+    ]);
     setIdCounter(idCounter + 1);
-    setNotes([...notes, newNote]);
   };
 
   const deleteNote = (id) => {
@@ -42,6 +44,7 @@ export const Board=()=>{
           key={note.id}
           id={note.id}
           text={note.text}
+          position={note.position}
           onDelete={deleteNote}
           onEdit={editNote}
           onPin={togglePin}

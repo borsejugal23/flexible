@@ -14,7 +14,13 @@
     position: absolute;
     top: 130px;
     left:50px;
-        
+
+
+    
+    cursor: move;
+    user-select: none;
+    display: flex; 
+    flex-direction: column;   
       
   }
   
@@ -39,6 +45,11 @@
     resize: none;
     line-height: 20px;
     font-size: 20px;
+  }
+  .text-wrapper {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
   }
   .text{
     width:100%;
