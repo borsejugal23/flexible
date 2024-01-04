@@ -51,7 +51,7 @@ const Note = ({ id, text,onDelete, onEdit, onPin, isPinned }) => {
 
   return (
     <div
-      className={`note ${isPinned ? 'pinned' : ''}`}
+      className={`${isPinned ? 'pinned' : 'note'}`}
       ref={stickyNoteRef}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
@@ -70,10 +70,10 @@ const Note = ({ id, text,onDelete, onEdit, onPin, isPinned }) => {
       ) : (
         <div onDoubleClick={handleDoubleClick} className="note-container">
           <div className="button-container">
-            <button onClick={handlePin} style={{ fontSize: '15px' }}>
+            <button onClick={handlePin} className='pinBtn' style={{fontSize:"15px"}}>
               {isPinned ? 'Unpin' : 'Pin'}
             </button>
-            <span>Notice {id}</span>
+            <span>Notice</span>
             <button onClick={handleDelete} className="clear">
               <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="20">
                 <path d="M0 0h24v24H0z" fill="none" />
